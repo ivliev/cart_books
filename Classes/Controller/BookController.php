@@ -161,7 +161,7 @@ class BookController extends ActionController
         $order = $this->configurationManager->getConfiguration(
             ConfigurationManagerInterface::CONFIGURATION_TYPE_SETTINGS,
             'CartBooks'
-        )['view'][$type]['order'];
+        )['view'][$type]['order']?? '';
 
         if ($order) {
             $demand->setOrder($order);
