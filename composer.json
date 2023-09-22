@@ -1,5 +1,5 @@
 {
-    "name": "extcode/cart-books",
+    "name": "ivliev/cart-books",
     "type": "typo3-cms-extension",
     "description": "Shopping Cart(s) for TYPO3 - Book Extension",
     "homepage": "https://cart.extco.de",
